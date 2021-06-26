@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Oxygen:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <main class="wrapper">
+      <header>
+        <img width="70" height="20" src="./images/LOGO.png" alt="LOGO" />
+        <nav class="menu">
+          <ul>
+            <li><a class="is-active" href="#hero">hola</a></li>
+            <li><a href="#proyectos">proyectos</a></li>
+            <li><a href="#contacto">hablemos</a></li>
+          </ul>
+        </nav>
+        <button class="button">Resume</button>
+      </header>
+
+      <section class="hero" id="hero">
+        <div class="hero-img">
+          <img src="./images/user.jpg" width="328" height="330" alt="" />
+        </div>
+        <div class="hero-description">
+          <h1>
+            <span> ¡Hola a todos! </span>
+            <span> Soy Luis </span>
+          </h1>
+          <p>
+            Frontend Developer que le encanta implementar diseños que inspiran y
+            atraen a las personas.
+          </p>
+
+          <div class="social">
+            <a href="tel:573206516150" class="button-icon"
+              ><img src="./icons/icon-phone.svg" alt=""
+            /></a>
+            <a href="" class="button-icon"
+              ><img src="./icons/icon-important_mail.svg" alt=""
+            /></a>
+            <a href="" class="button-icon"
+              ><img src="./icons/icon-instagram.svg" alt=""
+            /></a>
+            <a href="" class="button-icon"
+              ><img src="./icons/icon-github.svg" alt=""
+            /></a>
+          </div>
+          <a class="button" href="">Descarga mi CV</a>
+        </div>
+      </section>
+
+      <section class="about">
+        <p>
+          A lo largo de mi carrera como Frontend, he tenido el privilegio de
+          trabajar en proyectos retadores e increíbles
+        </p>
+        <p>Aquí hay algunos que me gustaría compartir.</p>
+        <div class="about-img">
+          <img src="./images/arrow-down.png" alt="arrow" />
+        </div>
+      </section>
+
+      <section class="project" id="proyectos">
+        <div class="project-image">
+          <img src="./images/💻  Macbook.png" alt="Proyecto-1" />
+        </div>
+        <div class="project-description">
+          <a class="project-title" href="https://LuisSinisterra.com"
+            >LuisSinisterra.com</a
+          >
+          <p>
+            Accede a más de 120 proyectos que te ayudarán a mejorar tus
+            habilidades como desarrollador Front-End.
+          </p>
+          <a href="#" targe="_blank" class="button is-secondary">Codigo</a>
+          <a href="#" targe="_blank" class="button">Proyecto</a>
+        </div>
+      </section>
+      <section class="testimonial">
+        <div class="testimonial-card">
+          <img src="./images/user.png" alt="" />
+          <p>
+            "Luis ha sido de gran ayuda para acelerar ciertos esfuerzos de
+            desarrollo. Lo que nos hubiera llevado 6 meses solo les llevó 1,5
+            meses".
+          </p>
+          <p>LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM</p>
+        </div>
+      </section>
+      <section class="project">
+        <div class="project-image">
+          <img src="./images/📱 iPad.png" alt="Proyecto-1" />
+        </div>
+        <div class="project-description">
+          <a class="project-title" href="https://LuisSinisterra.com">MARVOL</a>
+          <p>
+            Accede a más de 120 proyectos que te ayudarán a mejorar tus
+            habilidades como desarrollador Front-End.
+          </p>
+          <a href="#" targe="_blank" class="button is-secondary">Codigo</a>
+          <a href="#" targe="_blank" class="button">Proyecto</a>
+        </div>
+      </section>
+      <section class="testimonial">
+        <div class="testimonial-card">
+          <img src="./images/user2.png" alt="" />
+          <p>
+            "Luis ha superado mis espectativas desde el diseño hasta el desarrollo ".
+          </p>
+          <p>LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM</p>
+        </div>
+      </section>
+      <section class="project">
+        <div class="project-image">
+          <img src="./images/📱 Iphone X.png" alt="Proyecto-1" />
+        </div>
+        <div class="project-description">
+          <a class="project-title" href="https://LuisSinisterra.com">NETNET</a>
+          <p>
+            Accede a más de 120 proyectos que te ayudarán a mejorar tus
+            habilidades como desarrollador Front-End.
+          </p>
+          <a href="#" targe="_blank" class="button is-secondary">Codigo</a>
+          <a href="#" targe="_blank" class="button">Proyecto</a>
+        </div>
+      </section>
+
+      <section class="testimonial">
+        <div class="testimonial-card">
+          <img src="./images/user3.png" alt="" />
+          <p>
+            "Por primera vez en la historia de nuestra empresa, aparecimos en
+            todas las plataformas en las que trabajamos".
+          </p>
+          <p>MARCO CORTEZ / NETNET</p>
+        </div>
+      </section>
+
+      <form action="" method="POST" class="form" id="contacto">
+        <a class="project-title" href="https://LuisSinisterra.com">HABLEMOS</a>
+        <p>
+          Si está interesado en trabajar conmigo en su próximo proyecto, no dude
+          en ponerse en contacto conmigo.
+        </p>
+
+        <label for="form-name"
+          >Nombre completo
+          <input
+            required
+            id="form-name"
+            name="name"
+            placeholder="Juan"
+            type="text"
+          />
+        </label>
+
+        <label for="form-email"
+          >Correo Electrónico
+          <input
+            required
+            id="form-email"
+            name="email"
+            placeholder="Juan@tumail.com"
+            type="email"
+          />
+        </label>
+
+        <label for="form-message"
+          >Mensaje
+          <textarea
+            required
+            name="message"
+            id="form-message"
+            cols="20"
+            rows="10"
+            placeholder="Mensaje"
+          ></textarea>
+        </label>
+
+        <button class="button" type="submit">Enviar mensaje</button>
+      </form>
+
+      <footer>
+        <div class="footer-logo">
+          <img width="70" height="20" src="./images/LOGO.png" alt="LOGO" />
+        </div>
+        <div class="social">
+          <a href="tel:573206516150" class="button-icon"
+            ><img src="./icons/icon-phone.svg" alt=""
+          /></a>
+          <a href="" class="button-icon"
+            ><img src="./icons/icon-important_mail.svg" alt=""
+          /></a>
+          <a href="" class="button-icon"
+            ><img src="./icons/icon-instagram.svg" alt=""
+          /></a>
+          <a href="" class="button-icon"
+            ><img src="./icons/icon-github.svg" alt=""
+          /></a>
+        </div>
+        <div class="footer-text">
+          <p>Hecho con el ♥️ por Luis</p>
+          <p>Copyright 2021 - Todos los derechos reservados.</p>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>

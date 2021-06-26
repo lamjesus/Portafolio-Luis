@@ -1,0 +1,36 @@
+.button {
+  background: var(--purple);
+  padding: 13px 24px 13px 24px;
+  color: var(--white);
+  font: var(--button);
+  text-transform: uppercase;
+  border-radius: 4px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+}
+
+.is-secondary {
+  background: unset;
+  padding: 13px 24px 13px 24px;
+  color: var(--purple);
+  text-transform: uppercase;
+  border-radius: 4px;
+  border: 2px solid var(--purple);
+  font: var(--button);
+}
+
+.button-icon{
+    background: var(--white);
+    padding: 10px;
+    text-decoration: none;
+    border: 2px solid var(--purple);
+    border-radius: 4px ;
+    display: inline-block;
+
+}
+
+.button-icon img{
+    vertical-align: middle;
+}
+

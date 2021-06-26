@@ -1,0 +1,36 @@
+.testimonial{
+    display: flex;
+    text-align: center;
+    padding-inline: 24px;
+    padding-block:24px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(39.7657px);
+    border-radius: 24px;
+    margin: 0;
+    justify-content: space-around;
+}
+.testimonial-card p {
+    font: var(--caption);
+    opacity: 50%;
+    padding-inline: 18px;
+    padding-block:18px;
+    margin: 0;
+    
+}
+.testimonial-card  p:nth-child(2){
+    font: var(--headlineTestimonial);
+    opacity: 100%;
+    margin: 0;
+}
+
+@media screen and (min-width:728px) {
+    .testimonial-card  {
+        font: var(--caption);
+        opacity: 50%;
+        padding-inline: 18px;
+        padding-block:18px;
+        margin: 80px;
+        
+
+    }
+}

@@ -1,0 +1,38 @@
+footer{
+    color: var(--white);
+    text-align: center;
+    padding: 20px;
+}
+
+footer .social{
+    justify-content: center;
+}
+.footer-logo{
+    display: none;
+}
+
+@media screen and (min-width:768px) {
+    footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px;
+    }
+
+    footer .social{
+        order:3;
+    }
+    
+    .footer-logo{
+        display: block;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .footer-text{
+        display: flex;
+    }
+    footer .social{
+        padding: 0;
+    }
+}

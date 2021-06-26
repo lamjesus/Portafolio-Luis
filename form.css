@@ -1,0 +1,36 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-inline-size:540px ;
+    margin: auto;
+    margin-block-end: 80px;
+    margin-block-start: 80px;
+}
+
+.form label{
+    display: flex;
+    flex-direction: column;
+    font: var(--button);
+}
+.form p{
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+.form input, .form textarea{
+    border: 2px solid #858C94;
+    border-radius: 8px;
+    padding-inline: 16px;
+    padding-block: 12px;
+    font: var(--body1);
+    margin-top: 8px;
+}
+
+@media screen and (min-width:768px){
+    .form .project-title{
+        align-self: stretch;
+        text-align: center;
+    }
+
+}

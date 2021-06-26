@@ -1,0 +1,48 @@
+@import './button.css';
+@import './header.css';
+@import './hero.css';
+@import './wrapper.css';
+@import './menu.css';
+@import './about.css';
+@import './projects.css';
+@import './testimonial.css';
+@import './footer.css';
+@import './form.css';
+
+:root {
+  --fontBase: "Poppins", sans-serif;
+  --fontAbout:'Oxygen', sans-serif;
+  --headLines1: bold 95px/153px var(--fontBase);
+  --headLines2: bold 60px/95px var(--fontBase);
+  --headLines3: bold 48px/77px var(--fontBase);
+  --headLines4: bold 34px/55px var(--fontBase);
+  --headLines5: bold 24px/38px var(--fontBase);
+  --headlineAbout:normal 34px/55px var(--fontAbout);
+  --headlineTestimonial:bold 16px/25px var(--fontAbout);
+  --body1: normal 16px/25px var(--fontBase);
+  --body2: normal 14px/22px var(--fontBase);
+  --button: bold 14px/22px var(--fontBase);
+  --caption: normal 12px/19px var(--fontBase);
+  --purple: #310a90;
+  --green: #42e2b8;
+  --white: white;
+  --gradient: radial-gradient(
+      41.48% 11.48% at 2.38% 8.52%,
+      #747de9 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(135deg, #72edf2 0%, #5151e5 100%);
+}
+body {
+  background: var(--gradient);
+  min-block-size: 100vh;
+  font: var(--body1);
+  color: var(--purple);
+  padding: 0;
+  
+}
+h1{
+  margin: 0;
+}
+
+
